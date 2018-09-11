@@ -62,13 +62,41 @@ Go to `Finder > Applications > Utilities` and double-click on `Terminal.app`
 
 Now comes the fun part (that's how professional programmers do so... get ready!) 🙌
 
-> coming soon... 
-
+Let's make sure we are on the right place (which in PC is called _folder_).
 <br><br>
+
+When you want to copy some code from GitHub, you need a link, for example
+<br><br>
+`https://github.com/ReDI-School/html-css-munich-2018-fall.git`
+<br><br>
+
+Then, go to the `Terminal` and type
+```bash
+git clone https://github.com/ReDI-School/html-css-munich-2018-fall.git
+```
+
+Then, go to the new created place for your code
+```bash
+cd html-css-munich-2018-fall
+```
+
+A project in GitHub is like a tree with different branches. <br>
+We will start every class with its own branch: `date/intro`.
+For example, the first day will be `09-11/intro`.
+
+Then, inside the `html-css-munich-2018-fall` folder, type
+```bash
+git checkout 09-11/intro
+```
+
+From there: we can start!
+
+<br>
 
 ## Github Account
 
 > All of the work we make will be available at any time, everywhere. <br>
+> And you can save your progress meanwhile.
 > **GitHub** is a website from which you can share your code and collaborate with others.
 
 Click <a href="https://github.com/join" target="_blank">here</a> to start creating yout account.
