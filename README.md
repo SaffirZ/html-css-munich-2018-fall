@@ -36,7 +36,7 @@ To do it, we creat a GitHub account. GitHub is a place where we can save our cod
 <br>
 <br>
 GitHub works with **git**.<br>
-**git** is a tool that lets you share and collaborate with other develpoers. <br><br>
+**git** is a tool that lets you share and collaborate with other developers. <br><br>
 It provides you some commands that you can type in order to do that.<br>
 This commands are typed and run in the _Terminal_. <br><br>
 Let's give it a try to understand it better.
