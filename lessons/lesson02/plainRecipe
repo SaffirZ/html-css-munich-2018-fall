@@ -1,0 +1,84 @@
+<HTML>
+<HEAD></HEAD>
+<BODY>
+	<h1>
+		Recipes of Tatjana
+	</h1>
+	<!-- This is a comment and will not be shown on your website. It helps to make additions to code! -->
+	<!--Exercise 1:     Change the englisch translation after "Bratkartoffeln" inside <h2> to italic fontstyle -->
+	<h2>
+		Bratkartoffeln (fried potatos)
+	</h2>
+	<h3>
+		To buy:
+	</h3>
+	<ul>
+		<!--Exercise 2:     Make the weight information before the ingredients bold -->
+		<li>
+			1kg potatoes
+		</li>
+		<li>
+			2 onions
+		</li>
+		<li>
+			50g  bacon
+		</li>
+		<li>
+			Pepper
+		</li>
+
+		<!--Exercise 3:     Add Salt as ingredient in line 32 -->
+
+
+
+
+	</ul>
+
+	<!-- Exercise 4: Add another ordered list for the steps in line 47:
+
+		 Peel and slice (or cube) potatoes.
+		 Let soak for 5-10 minutes in salted ice water.
+		 Drain well and pat dry - make sure they are VERY dry!
+		 Heat 1/4 cup peanut oil in a skillet on high heat until it's shimmering and almost smoking.
+		 Add potatoes and let fry for about 2 minutes.
+		 Cover the pan and reduce heat to medium.
+	-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--Exercise 5: Can you do a recipe for your favorite food on your on? Show in a new file      -->
+</BODY>
+</HTML>
