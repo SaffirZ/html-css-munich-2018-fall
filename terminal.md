@@ -6,14 +6,13 @@ Go to the [🏡 home page](README.md) or to the [⬅️ ️️previous step](cod
 ## What is a Terminal?
 
 Material and code for every lesson will be shared amongst us all.<br>
-To do it, we creat a GitHub account. GitHub is a place where we can save our code and progress over our work.
+To do it, we will use a tool called `git`.
 <br>
 <br>
-GitHub works with **git**.<br>
-**git** is a tool that lets you share and collaborate with other developers. <br><br>
+`git` is a place where we can save our code and progress related to our work. <br><br>
 It provides you some commands that you can type in order to do that.<br>
-This commands are typed and run in the _Terminal_. <br><br>
-Let's give it a try to understand it better.
+To be able to type and tun those commands, we need something called `Terminal`<br><br>
+The best way to understand it is to try it so, let's start 😄
 
 <br>
 
@@ -39,7 +38,7 @@ Now comes the fun part (that's how professional programmers do so... get ready!)
 Let's make sure we are on the right place (which in PC is called _folder_).
 <br><br>
 
-When you want to copy some code from GitHub, you need a link, for example
+When you want to wp some code with the `git` tool we mentioned, you need a link, for example
 <br><br>
 `https://github.com/ReDI-School/html-css-munich-2018-fall.git`
 <br><br>
@@ -49,7 +48,11 @@ Then, go to the `Terminal` and type
 git clone https://github.com/ReDI-School/html-css-munich-2018-fall.git
 ```
 
-Then, go to the new created place for your code
+This command will create a new _folder_  in yout computer: `html-css-munich-2018-fall` and copy some files to it.<br>
+It will contain the code that the teachers wanted to share with you.
+<br>
+
+If you want to see that code, just go to the new created _folder_, by typing:
 ```bash
 cd html-css-munich-2018-fall
 ```
