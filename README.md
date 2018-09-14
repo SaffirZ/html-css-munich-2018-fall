@@ -21,110 +21,17 @@ don't copy/paste the solution, **type it yourself** 😉
 Raise your hand if you encounter any obstacle – your teachers are here to assist you at any time!
 <br><br><br>
 
-## Code Editor
-
-> You can write `HTML` & `CSS` even in Word or a simpel Text Editor but a Code Editor gives you lots of help.
-> <br> **Visual Studio Code** is a great one. Plus, it's free ⭐️
-
-Let's download it <a href="https://code.visualstudio.com/download" target="_blank">here</a>.
-<br><br><br>
-
-## What is a Terminal?
-
-Material and code for every lesson will be shared amongst us all.<br>
-To do it, we creat a GitHub account. GitHub is a place where we can save our code and progress over our work.
-<br>
-<br>
-GitHub works with **git**.<br>
-**git** is a tool that lets you share and collaborate with other developers. <br><br>
-It provides you some commands that you can type in order to do that.<br>
-This commands are typed and run in the _Terminal_. <br><br>
-Let's give it a try to understand it better.
-
+#### 🏁 Let's start!
 <br>
 
-## How to use the Terminal
+_You can follow step by step..._
 
-#### 🏠 If you have `Windows` Operating System
-
-First of all, go <a href="https://github.com/git-for-windows/git/releases/tag/v2.18.0.windows.1" target="_blank">here</a> to download a useful _Terminal_ for Windows.<br><br>
-Once done, open it.
-<br><br><br>
-
-#### 🍎 If you have `Apple` Operating System
-
-In this case, the `Terminal` comes built in with all that is needed.<br>
-(To run `git` the System will probably ask you to install some Apple stuff... it's nothing dangerous, so don't worry!)<br><br>
-Go to `Finder > Applications > Utilities` and double-click on `Terminal.app`
-<br><br><br>
-
-#### 🖥 Let's run our first command
-
-Now comes the fun part (that's how professional programmers do so... get ready!) 🙌
-
-Let's make sure we are on the right place (which in PC is called _folder_).
+[➡️ next step](code-editor.md)
 <br><br>
 
-When you want to copy some code from GitHub, you need a link, for example
-<br><br>
-`https://github.com/ReDI-School/html-css-munich-2018-fall.git`
-<br><br>
 
-Then, go to the `Terminal` and type
-```bash
-git clone https://github.com/ReDI-School/html-css-munich-2018-fall.git
-```
+_... or jump to the page of your interest._
 
-Then, go to the new created place for your code
-```bash
-cd html-css-munich-2018-fall
-```
-
-A project in GitHub is like a tree with different branches. <br>
-We will start every class with its own branch: `date/intro`.
-For example, the first day will be `09-11/intro`.
-
-Then, inside the `html-css-munich-2018-fall` folder, type
-```bash
-git checkout 09-11/intro
-```
-
-From there: we can start!
-
-<br>
-
-## Github Account
-
-> All of the work we make will be available at any time, everywhere. <br>
-> And you can save your progress meanwhile.
-> **GitHub** is a website from which you can share your code and collaborate with others.
-
-Click <a href="https://github.com/join" target="_blank">here</a> to start creating yout account.
-<br><br><br>
-
-1. Click on **Sign up** <br><br>
-![](assets/github-signup-00.png "Sign up on GitHub")
-<br><br><br>
-
-2. Fill in your details. You can use you real name-surname and the mail given to _ReDI School_. <br><br>
-![](assets/github-signup-01.png "Fill in your details")
-<br><br><br>
-
-3. Click **Submit**
-<br><br><br>
-
-4. Click on **Continue** <br><br>
-![](assets/github-signup-02.png "Continue")
-<br><br><br>
-
-5. Click on **Skip** <br><br>
-![](assets/github-signup-03.png "Skip")
-<br><br><br>
-
-6. Now you can click on *Your profile* <br><br>
-![](assets/github-signup-04.png "Done")
-<br><br><br>
-
-8. Congrats 🎉 You're now a proud GitHub User and gonna make great things! <br><br>
-![](assets/github-signup-05.png "my profile")
-<br><br><br>
+[⬅️ Install a Code Editor](code-editor.md)<br>
+[⬅️ Install a Terminal](terminal.md)<br>
+[⬅️ Create a GitHub account](github-account.md)<br>
