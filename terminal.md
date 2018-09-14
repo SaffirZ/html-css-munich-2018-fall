@@ -54,16 +54,8 @@ Then, go to the new created place for your code
 cd html-css-munich-2018-fall
 ```
 
-A project in GitHub is like a tree with different branches. <br>
-We will start every class with its own branch: `date/intro`.
-For example, the first day will be `09-11/intro`.
-
-Then, inside the `html-css-munich-2018-fall` folder, type
-```bash
-git checkout 09-11/intro
-```
-
-From there: we can start!
+From yere, we can start by opening the created project / folder with `VSCode`. <br>
+If you don't rememebr how to do it, just go [here](code-editor.md).
 
 <br>
 
