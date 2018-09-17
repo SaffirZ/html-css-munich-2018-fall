@@ -48,3 +48,10 @@ ol {
 .discarted {
 text-decoration: line-through;
 }
+
+li{
+    color: red;
+}
+p {
+    color: green;
+}
