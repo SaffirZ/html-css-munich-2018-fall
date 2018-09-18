@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto";
+}
+
 .counter__container {
     background-image: url('../../assets/woods.jpg');
     background-position: center;
@@ -18,4 +22,11 @@
     height: 427px;
     margin: 12vh auto;
     width: 458px;
+}
+
+.counter__count {
+    font-size: 230px;
+    font-weight: 700;
+    padding-top: 48px;
+    text-align: center;
 }
