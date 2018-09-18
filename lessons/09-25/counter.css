@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.counter__container {
+    background-image: url('../../assets/woods.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+    width: 100%;
+}
+
+.counter {
+    background-image: linear-gradient(to bottom, #fffbf8, rgba(255, 251, 248, .8));
+    border-radius: 3px;
+    height: 427px;
+    margin: 12vh auto;
+    width: 458px;
+}
