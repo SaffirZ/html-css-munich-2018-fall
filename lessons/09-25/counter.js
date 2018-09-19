@@ -57,9 +57,16 @@ const state$ = pipe(
 
 // DOM
 const $counter = document.querySelector('.js-counter__count');
-const updateValue = $element => value => $element.innerText = value.counter;
+const $actionLess = document.querySelector('.js-counter__action-less');
+const $actionReset = document.querySelector('.js-counter__action-reset');
+const updateValue = $element => state => ($element.innerText = state.counter, state);
+const updateActionState = $element => state => ($element.parentElement.classList.toggle('counter__action--disabled', state.counter === 0), state)
 
 pipe(
     state$,
-    forEach(updateValue($counter))
+    forEach(compose(
+        updateActionState($actionLess),
+        updateActionState($actionReset),
+        updateValue($counter),
+    ))
 );

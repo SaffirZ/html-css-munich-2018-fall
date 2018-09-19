@@ -40,39 +40,47 @@ body {
 	padding: 0 24px;
     text-decoration: none;
     transition: background-color 300ms;
+    user-select: none;
 }
 
 .counter__action-less a,
 .counter__action-less a:link,
 .counter__action-less a:visited {
-	background-color: #c5caae;
+    background-color: #f2949f;
 	font-size: 40px;
 }
 
 .counter__action-less a:hover {
-	background-color: #b1bb86;
+    background-color: #e4818d;
 }
 
 .counter__action-more a,
 .counter__action-more a:link,
 .counter__action-more a:visited {
-	background-color: #f2949f;
+	background-color: #c5caae;
 	font-size: 40px;
 }
 
 .counter__action-more a:hover {
-	background-color: #e4818d;
+	background-color: #b1bb86;
 }
 
-.counter__action--reset a,
-.counter__action--reset a:link,
-.counter__action--reset a:visited {
+.counter__action-reset a,
+.counter__action-reset a:link,
+.counter__action-reset a:visited {
 	background-color: #ffc463;
 	flex-grow: 1;
 }
 
-.counter__action--reset a:hover {
+.counter__action-reset a:hover {
 	background-color: #eab050;
+}
+
+.counter__action--disabled a,
+.counter__action--disabled a:link,
+.counter__action--disabled a:visited {
+    background-color: #bab8b8;
+    pointer-events: none;
 }
 
 .counter__actions {

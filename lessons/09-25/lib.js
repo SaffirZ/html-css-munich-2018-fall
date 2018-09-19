@@ -42,6 +42,8 @@ function pipe(...cbs) {
 	return res;
 }
 
+const compose = (...fns) => fns.reduce((second, first) => (arg) => first(second(arg)));
+
 const filter = (condition) => (source) => (start, sink) => {
 	if (start !== 0) return;
 	let talkback;
